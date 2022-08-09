@@ -1,0 +1,9 @@
+<ng-container [formGroup]="fullForm">
+
+    <app-personal-form formGroupName="personalForm"></app-personal-form>
+    <app-additional-form formGroupName="additionalForm"></app-additional-form>
+
+    <button mat-flat-button color="primary" (click)="submit()">Submit</button>
+    <button mat-flat-button color="primary" (click)="fillForm()">Fill Form</button>
+</ng-container>
+

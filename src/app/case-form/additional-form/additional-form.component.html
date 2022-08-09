@@ -1,0 +1,16 @@
+<form [formGroup]="form">
+    <mat-card class="form-container">
+        <mat-card-title>Additional Info</mat-card-title>
+
+        <mat-form-field>
+            <mat-label>Phone number</mat-label>
+            <input matInput placeholder="Ex. Jane" formControlName="phoneNumber" />
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Etc</mat-label>
+            <input matInput formControlName="etc" />
+        </mat-form-field>
+
+    </mat-card>
+</form>

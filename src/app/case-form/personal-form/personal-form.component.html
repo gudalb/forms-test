@@ -1,0 +1,23 @@
+<form [formGroup]="form">
+    <mat-card class="form-container">
+        <mat-card-title>Basic Info</mat-card-title>
+
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Ex. Jane" formControlName="name" />
+        </mat-form-field>
+
+
+        <mat-form-field>
+            <mat-label>Age</mat-label>
+            <input type="number" matInput placeholder="Ex. 20" formControlName="age" />
+        </mat-form-field>
+
+
+        <mat-form-field>
+            <mat-label>Address</mat-label>
+            <input matInput placeholder="Ex. Appleway 102" formControlName="address" />
+        </mat-form-field>
+
+    </mat-card>
+</form>
